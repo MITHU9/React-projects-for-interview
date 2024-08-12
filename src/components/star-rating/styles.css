@@ -1,0 +1,10 @@
+.star-rating {
+  padding: 50px 0px;
+
+  .active {
+    color: #e29f0e;
+  }
+  .disabled {
+    color: #000000;
+  }
+}
