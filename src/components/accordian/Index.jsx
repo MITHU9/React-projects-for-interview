@@ -34,7 +34,15 @@ const Index = () => {
             <div className="item" key={item.id}>
               <div onClick={() => handleSelection(item.id)} className="title">
                 <h3>{item.question}</h3>
-                <span>{selected === item.id ? "-" : "+"}</span>
+                <span>
+                  {multiSelection
+                    ? multiple.indexOf(item.id) !== -1
+                      ? "-"
+                      : "+"
+                    : selected === item.id
+                    ? "-"
+                    : "+"}
+                </span>
               </div>
 
               {multiSelection
