@@ -15,7 +15,7 @@ const LoadMoreData = () => {
         }`
       );
       const data = await response.json();
-      console.log(data);
+      //console.log(data);
       if (data && data.products && data.products.length) {
         setProducts([...products, ...data.products]);
         setLoading(false);
@@ -32,7 +32,7 @@ const LoadMoreData = () => {
   }, [page]);
 
   useEffect(() => {
-    if (products.length === 100) {
+    if (products.length === 160) {
       setDisabled(true);
     }
   }, [products]);

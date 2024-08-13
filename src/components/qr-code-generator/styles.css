@@ -1,0 +1,30 @@
+.input-div {
+  padding: 20px;
+
+  .qr-input {
+    width: 200px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin: 0px 10px;
+    font-weight: 600;
+  }
+
+  button {
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    margin: 0px 10px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 600;
+    background-color: rgb(29, 51, 54);
+  }
+  && :disabled {
+    cursor: not-allowed;
+    background-color: #ccc;
+    color: #fff;
+  }
+}
