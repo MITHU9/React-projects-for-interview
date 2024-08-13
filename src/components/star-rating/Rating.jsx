@@ -24,10 +24,10 @@ const Rating = ({ noOfStars = 5 }) => {
           <FaStar
             key={index}
             className={
-              index <= (selectedStar || hoveredStar) ? "active" : "disabled"
+              index <= (hoveredStar || selectedStar) ? "active" : "disabled"
             }
             onClick={() => handleClick(index)}
-            onMouseEnter={() => handleMouseEnter(index)}
+            onMouseMove={() => handleMouseEnter(index)}
             onMouseLeave={() => handleMouseLeave()}
             size={30}
           />
