@@ -42,11 +42,10 @@ const ImageSlider = ({ url, limit = 5, page = 1 }) => {
 
   useEffect(() => {
     if (url !== "") fetchImages(url);
-
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [url]);
 
-  console.log(images);
+  //console.log(images);
 
   if (loading) {
     return <div className="loading">Loading...</div>;
