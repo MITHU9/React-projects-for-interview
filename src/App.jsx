@@ -5,6 +5,7 @@ import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
 import RandomColor from "./components/random-color/RandomColor";
 import Rating from "./components/star-rating/Rating";
+import SwitchTheme from "./components/switch-theme/SwitchTheme";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={10} />
       <LoadMoreData />
       <QRCodeGenerator />
+      <SwitchTheme />
     </div>
   );
 }
