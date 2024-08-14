@@ -45,7 +45,7 @@ const ScrollIndicator = ({ url }) => {
     };
   }, []);
 
-  console.log(`Scroll Percentage: ${scrollPercentage}%`);
+  //console.log(`Scroll Percentage: ${scrollPercentage}%`);
 
   if (isLoading) {
     return (

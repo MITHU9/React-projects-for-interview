@@ -1,5 +1,6 @@
 import "./App.css";
 import Index from "./components/accordian";
+import GithubProfileData from "./components/github-profile/GithubProfileData";
 import ImageSlider from "./components/image-slider/ImageSlider";
 import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
@@ -19,6 +20,7 @@ function App() {
       <QRCodeGenerator />
       <SwitchTheme />
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
+      <GithubProfileData />
     </div>
   );
 }
