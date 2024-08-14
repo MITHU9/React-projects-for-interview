@@ -8,7 +8,7 @@ const SwitchTheme = () => {
     setTheme(theme === "dark" ? "light" : "dark");
   };
 
-  console.log(theme);
+  //console.log(theme);
 
   return (
     <div className="light-dark" data-theme={theme}>

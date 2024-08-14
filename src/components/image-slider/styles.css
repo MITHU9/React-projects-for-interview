@@ -5,6 +5,7 @@
   align-items: center;
   width: 600px;
   height: 400px;
+  margin: 0 auto;
 
   .current-image {
     border-radius: 0.5rem;
