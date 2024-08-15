@@ -10,6 +10,7 @@
     grid-gap: 10px;
 
     .product {
+      width: 350px;
       padding: 20px;
       border: 1px solid #575454;
       display: flex;
@@ -18,10 +19,14 @@
       border-radius: 10px;
 
       img {
-        width: 300px;
+        width: 200px;
         height: auto;
         object-fit: cover;
         margin: 0 auto;
+      }
+
+      h3 {
+        margin: 0px;
       }
 
       p {

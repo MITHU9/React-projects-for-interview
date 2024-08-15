@@ -6,13 +6,14 @@ import LoadMoreData from "./components/load-more-data/LoadMoreData";
 import QRCodeGenerator from "./components/qr-code-generator/QRCodeGenerator";
 import RandomColor from "./components/random-color/RandomColor";
 import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
+import SearchAutoComplete from "./components/search-auto-complete/SearchAutoComplete";
 import Rating from "./components/star-rating/Rating";
 import SwitchTheme from "./components/switch-theme/SwitchTheme";
 
 function App() {
   return (
     <div className="app">
-      <Index />
+      {/* <Index />
       <RandomColor />
       <Rating noOfStars={10} />
       <ImageSlider url={"https://picsum.photos/v2/list"} page={1} limit={10} />
@@ -20,7 +21,8 @@ function App() {
       <QRCodeGenerator />
       <SwitchTheme />
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
-      <GithubProfileData />
+      <GithubProfileData /> */}
+      <SearchAutoComplete />
     </div>
   );
 }

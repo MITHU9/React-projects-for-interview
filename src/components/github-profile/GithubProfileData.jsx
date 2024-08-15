@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import UserCard from "./userCard";
+import UserCard from "./UserCard";
 import "./styles.css";
 
 const GithubProfileData = () => {
@@ -15,7 +15,7 @@ const GithubProfileData = () => {
         `https://api.github.com/users/${profileName}`
       );
       const data = await response.json();
-      console.log(data);
+      //console.log(data);
       if (data) {
         setProfileData(data);
         setProfileName("");
