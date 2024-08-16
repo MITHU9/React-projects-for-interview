@@ -44,6 +44,7 @@ const SearchAutoComplete = () => {
   const handleClick = (user) => {
     setSearchText(user);
     setShowUser(false);
+    setFilteredUsers([]);
   };
 
   useEffect(() => {

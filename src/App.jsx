@@ -9,6 +9,7 @@ import ScrollIndicator from "./components/scroll-indicator/ScrollIndicator";
 import SearchAutoComplete from "./components/search-auto-complete/SearchAutoComplete";
 import Rating from "./components/star-rating/Rating";
 import SwitchTheme from "./components/switch-theme/SwitchTheme";
+import TicTacToe from "./components/tic-tac-toe/TicTacToe";
 
 function App() {
   return (
@@ -21,8 +22,9 @@ function App() {
       <QRCodeGenerator />
       <SwitchTheme />
       <ScrollIndicator url={"https://dummyjson.com/products?limit=100"} />
-      <GithubProfileData /> */}
-      <SearchAutoComplete />
+      <GithubProfileData />
+      <SearchAutoComplete /> */}
+      <TicTacToe />
     </div>
   );
 }
